@@ -1,0 +1,45 @@
+PODS:
+  - AMap3DMap (7.7.0):
+    - AMapFoundation (~> 1.6.3)
+  - AMapFoundation (1.6.5.1)
+  - AMapSearch (7.7.0):
+    - AMapFoundation (~> 1.6.4)
+  - cy_2d_amap_base (0.0.1):
+    - AMap3DMap
+    - Flutter
+  - cy_amap_search (0.0.1):
+    - AMapSearch
+    - cy_2d_amap_base
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - cy_2d_amap_base (from `.symlinks/plugins/cy_2d_amap_base/ios`)
+  - cy_amap_search (from `.symlinks/plugins/cy_amap_search/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - AMap3DMap
+    - AMapFoundation
+    - AMapSearch
+
+EXTERNAL SOURCES:
+  cy_2d_amap_base:
+    :path: ".symlinks/plugins/cy_2d_amap_base/ios"
+  cy_amap_search:
+    :path: ".symlinks/plugins/cy_amap_search/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  AMap3DMap: afc02ebcd27ae2779e77ea16fa65586ec182ec69
+  AMapFoundation: b67560a6f21aab81c8c12f84616b55a3833b6253
+  AMapSearch: 93bccff245dada46060758f828ca1058ec3363fc
+  cy_2d_amap_base: a445860d5a5afa80c8eeec81d9cf76859a31bc9e
+  cy_amap_search: 735b6b13f4c7e989a756efd8b2b3a46c85d6e1ae
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.9.3
