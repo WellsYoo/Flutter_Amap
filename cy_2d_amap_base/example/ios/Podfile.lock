@@ -1,0 +1,39 @@
+PODS:
+  - AMap3DMap (7.7.0):
+    - AMapFoundation (~> 1.6.3)
+  - AMapFoundation (1.6.4)
+  - "app_settings (3.0.0+1)":
+    - Flutter
+  - cy_2d_amap_base (0.0.1):
+    - AMap3DMap
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - app_settings (from `.symlinks/plugins/app_settings/ios`)
+  - cy_2d_amap_base (from `.symlinks/plugins/cy_2d_amap_base/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - AMap3DMap
+    - AMapFoundation
+
+EXTERNAL SOURCES:
+  app_settings:
+    :path: ".symlinks/plugins/app_settings/ios"
+  cy_2d_amap_base:
+    :path: ".symlinks/plugins/cy_2d_amap_base/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  AMap3DMap: afc02ebcd27ae2779e77ea16fa65586ec182ec69
+  AMapFoundation: 3638198dfa40be54648570c3520edefad288286b
+  app_settings: d103828c9f5d515c4df9ee754dabd443f7cedcf3
+  cy_2d_amap_base: a445860d5a5afa80c8eeec81d9cf76859a31bc9e
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: 197ae1e7ddef24188e4c8e540b4fba2517936c36
+
+COCOAPODS: 1.9.3
